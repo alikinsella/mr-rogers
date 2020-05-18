@@ -3,9 +3,17 @@ const rogersConverter = function(userInput) {
 	let userInputPlusOne = userInput + 1
 	let counter = 0;
 	let answer = [];
+	let number;
 	for (let i = 0; i < userInputPlusOne; i++) {
-		let number = answer.push(counter + i);
+		
+		if (number === 3) {
+			number = answer.push("Won't you be my neighbor?")
+		} else {
+			number = answer.push(counter + i);
+		}
+
 		console.log(answer);
+
 	}
 	return answer;
 }

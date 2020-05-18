@@ -20,6 +20,8 @@
 * Behavior: If the user input is a 3, then the program prints out "Won't you be my neighbor?"
 * Input example: 3
 * Output example: "Won't you be my neighbor?"
+- [x] ✔ 8:01 PM
+- Notes: Added an if else statement that pushes "Won't you be my neighbor?" to the array if the number is 3
 
 #### Spec 
 * Behavior: If the user input is a 2, then the program prints out "Boop!"
