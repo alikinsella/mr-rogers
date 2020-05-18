@@ -18,6 +18,63 @@ These exceptions are written from least to most important. The first exception s
 - The number 21 should be replaced with "Boop".
 - The number 32 should be replaced with "Won't you be my neighbor?"
 
+A user should be able to enter a new number and see new results over and over again.
+
+Example: If a user inputs a 5, the program should display a list of values: "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5
+
+## Specifications
+
+#### Spec 
+* Behavior: 
+* Input example: 
+* Output example: 
+
+#### Spec 
+* Behavior: Form takes input from the user and prints it on the page
+* Input example: "Test"
+* Output example: "Test"
+
+#### Spec 
+* Behavior: The program returns a range of numbers from 0 to the users inputted number
+* Input example: 4
+* Output example: 0, 1, 2, 3, 4
+
+#### Spec 
+* Behavior: If the user input is a 3, then the program prints out "Won't you be my neighbor?"
+* Input example: 3
+* Output example: "Won't you be my neighbor?"
+
+#### Spec 
+* Behavior: If the user input is a 2, then the program prints out "Boop!"
+* Input example: 2
+* Output example: "Boop!"
+
+#### Spec 
+* Behavior: If the user input is a 1, then the program prints out "Beep!"
+* Input example: 1
+* Output example: "Beep!"
+
+#### Spec 
+* Behavior: If the user input is a multi-number number that includes a 2, the the program prints out "Boop!"
+* Input example: 12 or 22
+* Output example: "Boop!"
+
+#### Spec 
+* Behavior: If the user input is a multi-number number that includes a 3, the the program prints out "Won't you be my neighbor!"
+* Input example: 13 or 23
+* Output example: "Boop!"
+
+#### Spec 
+* Behavior: The program allows the user to put in another number and see new results
+* Input example: New number
+* Output example: New results
+
+#### Spec 
+* Behavior: The program only takes numbers
+* Input example: "string"
+* Output example: 
+
+
 ## Setup/Installation Requirements
 
 * Clone the repository
@@ -29,7 +86,7 @@ No known bugs at this time
 
 ## Support and contact details
 
-Open up a [new issue]().
+Open up a [new issue](https://github.com/mannylopez/mr-rogers/issues).
 
 ## Technologies Used
 
