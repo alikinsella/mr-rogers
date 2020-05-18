@@ -8,6 +8,10 @@ const rogersConverter = function(userInput) {
 		
 		if (number === 3) {
 			number = answer.push("Won't you be my neighbor?")
+		} else if (number === 2) {
+			number = answer.push("Boop!")
+		} else if (number === 1) {
+			number = answer.push("Beep!")
 		} else {
 			number = answer.push(counter + i);
 		}
