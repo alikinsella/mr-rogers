@@ -69,12 +69,6 @@ Example: If a user inputs a 5, the program should display a list of values: "0",
 * Input example: New number
 * Output example: New results
 
-#### Spec 
-* Behavior: The program only takes numbers
-* Input example: "string"
-* Output example: 
-
-
 ## Setup/Installation Requirements
 
 * Clone the repository

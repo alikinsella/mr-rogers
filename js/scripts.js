@@ -36,6 +36,7 @@ $(document).ready(function() {
 		let userInput = parseInt($("#user-input").val());
 		let result = rogersConverter(userInput);
 		console.log("The result is: " + result)
+		$(".rogers-output").text();
 		$(".rogers-output").text(result);
 	});
 });
