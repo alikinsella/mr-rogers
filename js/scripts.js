@@ -8,7 +8,6 @@ const rogersConverter = function(userInput) {
 	
 	for (let i = 0; i < userInputPlusOne; i++) {
 		number = String(number)
-		console.log("This is a: " + typeof(number))
 
 		if (number.includes("3")) {
 			number = answer.push("Won't you be my neighbor?")
@@ -19,10 +18,6 @@ const rogersConverter = function(userInput) {
 		} else {
 			number = answer.push(counter + i);
 		}
-
-		console.log(answer);
-		console.log(typeof(answer))
-
 	}
 	return answer;
 }
@@ -35,7 +30,7 @@ $(document).ready(function() {
 
 		let userInput = parseInt($("#user-input").val());
 		let result = rogersConverter(userInput);
-		console.log("The result is: " + result)
+		
 		$(".rogers-output").text();
 		$(".rogers-output").text(result);
 	});
