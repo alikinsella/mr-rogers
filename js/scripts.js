@@ -1,12 +1,11 @@
 // Business logic
 const rogersConverter = function(userInput) {
-	let userInputPlusOne = userInput + 1
 
 	let counter = 0;
 	let answer = [];
 	let number;
 	
-	for (let i = 0; i < userInputPlusOne; i++) {
+	for (let i = 0; i <= userInput; i++) {
 		number = String(number)
 
 		if (number.includes("3")) {
